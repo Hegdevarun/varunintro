@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+
+<html><head>
+    <title>index.html</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <style>
+        .social{
+           
+            color: rgb(254, 251, 251);
+            text-decoration: none;
+            transition: color 0.2s;
+            margin: 10px;
+            font-size: 30px;
+            padding: 20px;
+             top: 10px;   
+        }
+         .social2{
+           
+            color: rgb(254, 251, 251);
+            text-decoration: none;
+            text-align: center;
+            
+            transition: color 0.2s;
+            margin-left: 50%;
+            font-size: 50px;
+            padding: 20px;
+             top: 10px;   
+        }
+
+        .social1{
+           
+           color: rgb(254, 251, 251);
+           text-decoration: none;
+           transition: color 0.2s;
+           margin: 10px;
+           font-size: 50px;
+           padding: 20px;
+            top: 10px;   
+            animation: glowing 1000ms infinite;
+       }
+        .social:hover{
+            color: #434343; 
+        }
+         .social2:hover{
+            color: #434343; 
+         }
+        .social1:hover{
+            color: #434343; 
+           
+        }
+        @keyframes glowing{
+    0%{
+        background-color:#072e48;
+        box-shadow: 0 0 5px #3457d5;
+        padding: 5px;
+    }
+    50%
+    {   padding: 5px;
+        background-color:#072e48;
+        box-shadow: 0 0 20px #010212;
+    }
+    100%{padding: 5px;
+        background-color:#072e48;
+        box-shadow: 0 0 5px #3457d5;
+      
+}
+}
+        footer{
+            
+            padding:  10px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+           
+            width: 100%;
+            height: 10em;
+            text-align: center;
+            background-color:#171718 ;
+            color: #f7f5f5;
+            font: 1em sans-serif;
+            
+        }
+        header{
+        left: 0;
+        background-color:#072e48 ;
+            padding:  10px;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 4em;
+            text-align: left;
+           
+            color: #aaaaaa;
+        }
+        h2,h3,h4,h6,h7{
+            color: #92b70d;
+
+            margin-left: 10px;
+        }
+        h5{
+            color: rgb(249, 244, 244);
+        }
+        .text{
+            font-size: 7vw;
+            font-family: monospace;
+            width: 90%;
+            letter-spacing: 8px;
+            border-right: 5px solid;
+         overflow: hidden;
+         white-space: nowrap;
+         animation: 
+         typing 7s ,
+         cursor .4s step-end infinite alternate;
+         display: inline-block;
+        }
+        @keyframes cursor {
+            50%{border-color: transparent;}
+            
+        }
+        @keyframes typing {
+from {width: 0 }
+to {width:90% }
+        }
+       
+
+        .text1{
+            font-size: 7vw;
+            font-family: monospace;
+            width: 75%;
+            left: 10px;
+            letter-spacing: 8px;
+            border: 5px solid;
+         overflow: hidden;
+         white-space: nowrap;
+         background-color: rgb(249, 245, 245);
+         animation: 
+         typing1 7s ,
+         cursor1 .4s ;
+         display: inline-block;
+        }
+        @keyframes cursor1 {
+            50%{border-color: transparent;}
+            
+        }
+        @keyframes typing1 {
+from {width: 0 }
+to {width: 75%; }
+        }
+        .text0{
+            font-size: 20px;
+            font-family: monospace;
+            width: 75%;
+            left: 10px;
+            letter-spacing: 3px;
+    
+         overflow: hidden;
+         white-space: nowrap;
+         animation: 
+         typing1 10s ,
+         cursor1 .4s ;
+         display: inline-block;
+        }
+        @keyframes cursor1 {
+            50%{border-color: transparent;}
+            
+        }
+        @keyframes typing1 {
+from {width: 0 }
+to {width: 75%; }
+        }
+        
+        img{
+            max-height: 50%;
+            max-width: 90%;
+
+        }
+        .class1{
+            width: 100%;
+            height:100%;
+            background-color: #82c0f6;
+            /*margin: 20px;*/
+            color: rgb(242, 239, 239);
+            height: auto;
+            position: absolute;
+            background-image: url(web-design-career-certificate.jpg);
+text-align: center;
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        
+        aside{
+            width: auto;
+            max-width: 100%;
+            background-color: rgb(246, 246, 115);
+            color: #000;
+            padding: 5px;
+            margin: 10px;
+            height: auto;
+            
+        }
+    </style>
+</head>
+    <body style="background-image: url(web-design-career-certificate.jpg);font: 1em sans-serif;height: 100%;">
+      <br/><br/><br/><br/>
+       <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <header>
+            <a class="social1" href="index1.html">
+    <ion-icon name="grid-outline" ></ion-icon>
+</a>
+        </header>
+        <div style="width: 100%;height:750px;min-height: auto">
+      <h2>Hi, myself</h2>
+       <h1> <span style="color: #f7f6f1;"class="text"> VARUN HEGDE</span> </h1>
+       <h2>I am a <br/><span style="color: rgb(43, 189, 65);"class="text1">Front End</span> Developer </h2>     
+       <br/><br/><br/> 
+ <a href="#About" class="social2 "  >
+        <ion-icon name="chevron-down-outline"></ion-icon>
+    </a>
+    <br/><br/><br/>
+    
+<hr>
+    <div class="class1 ;">
+<br/><br/>
+
+    <h1 style="color: #f7f6f1; left: 20px;" ><a name="About" style="text-decoration: none;color: rgb(252, 250, 250);">About</a></h1>
+
+    <p style="color: #f7f6f1;left: 20px;" class="text0">Apart from Front end Developer,i am a youtube vlogger.<br/>
+        Check out my youtube channel .for more details subscribe <br/>to my youtube channel in the more info section.
+    </p>
+    <aside>
+        <h1 >Description</h1>
+        <p >
+         This is my vlogging channel.The most funniest travel channel on youtube.Never any sponsored content,just the truth about everything!.I recently 
+         started this channel of mine with around 50 subscribers,i want all your support so that i can continue further.<br/>
+         note : To be notified of all new videos,click on the bell icon next to the subscribe button. 
+        </p>
+
+    </aside>
+    <br/>
+    <img class="text0" src="utube.png" width="800" height="250">
+    <br/>
+    <img class="text0" src="utube1.png" width="800" height="250">
+   <br/><br/>
+        <div style="left: 0;">
+            <br/><br/><br/><br/><br/> <br/><br/><br/><br/><br/>
+    <footer style="left: 0;">
+        <p>
+        <a name="follow" style="text-decoration: none;">
+        Follow us on</a>
+    </p>
+        <br/>
+        <br/>
+        <a class="social" href="https://instagram.com/its_me_varun_hegde" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+    </a>
+    <a class="social" href="https://youtube.com/@motorvlogger9163" target="_blank">
+    <ion-icon name="logo-youtube"></ion-icon>
+</a>
+<a class="social" href="https://wa.me/qr/4NSUUPB5DZGDL1" target="_blank">
+<ion-icon name="logo-whatsapp"></ion-icon>
+</a><br/>
+Copyright © varunhegde |2023
+</div>
+</div>
+</div>
+    </footer> 
+
+
+    </body>
+</html>
